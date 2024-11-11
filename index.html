@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Forget Password</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <!-- Web3Forms Access Key -->
+            <input type="hidden" name="access_key" value="e5072c7d-2a2c-40c9-864e-20e9a5eab1c3">
+
+            <!-- Email Input -->
+            <label for="email" id="lab">Enter your Email ID:<br><br>
+                <input id="field" type="email" name="email" placeholder="e.g., sam123@gmail.com" required>
+            </label>
+
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+            <!-- Submit Button -->
+            <br><br>
+            <button id="send" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

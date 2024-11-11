@@ -1,0 +1,33 @@
+body{
+    /* background-color: rgb(55, 0, 106); */
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    background-color: rgb(241, 212, 255);
+    height:80%;
+    width:90%;
+    border: 4px solid rgb(230, 131, 255);
+    align-content: center;
+    text-align: center;
+    margin: 5% auto 5% auto;
+}
+#send{
+    background-color: blueviolet;
+    color: rgb(217, 177, 255);
+    border-radius: 10px;
+    font-size: 40px;
+    /* height:45px;
+    width:70px; */
+    border:4px solid black;
+}
+#lab{
+    font-size: 50px;
+}
+#field{
+    margin-top: -40px;
+    font-size: 45px;
+    border:5px solid black;
+}
